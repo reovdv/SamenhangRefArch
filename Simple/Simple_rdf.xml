@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:archimate="http://bp4mc2.org/def/archimate#">
+   <archimate:BusinessRole rdf:about="urn:uuid:id-1962f33a20bd48afa570e62378aa959e">
+      <rdfs:label xml:lang="en">Insurer</rdfs:label>
+      <archimate:assignment rdf:resource="urn:uuid:id-a9a80938df4e48aeb3708097003ed414"/>
+   </archimate:BusinessRole>
+   <archimate:BusinessProcess rdf:about="urn:uuid:id-a9a80938df4e48aeb3708097003ed414">
+      <rdfs:label xml:lang="en">Process insurance claim</rdfs:label>
+      <archimate:composition rdf:resource="urn:uuid:id-48a1e3d24de3408ea6eec9b48d999b36"/>
+      <archimate:composition rdf:resource="urn:uuid:id-47cd3b98677240278901f7f37c2def48"/>
+      <archimate:composition rdf:resource="urn:uuid:id-21535b713e7d49edb545e70e192c63a3"/>
+   </archimate:BusinessProcess>
+   <archimate:BusinessProcess rdf:about="urn:uuid:id-48a1e3d24de3408ea6eec9b48d999b36">
+      <rdfs:label xml:lang="en">Receive claim</rdfs:label>
+      <archimate:triggering rdf:resource="urn:uuid:id-47cd3b98677240278901f7f37c2def48"/>
+   </archimate:BusinessProcess>
+   <archimate:BusinessProcess rdf:about="urn:uuid:id-47cd3b98677240278901f7f37c2def48">
+      <rdfs:label xml:lang="en">Process claim</rdfs:label>
+      <archimate:triggering rdf:resource="urn:uuid:id-21535b713e7d49edb545e70e192c63a3"/>
+   </archimate:BusinessProcess>
+   <archimate:BusinessProcess rdf:about="urn:uuid:id-21535b713e7d49edb545e70e192c63a3">
+      <rdfs:label xml:lang="en">Accept claim</rdfs:label>
+   </archimate:BusinessProcess>
+</rdf:RDF>
