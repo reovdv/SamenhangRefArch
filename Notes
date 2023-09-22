@@ -1,0 +1,9 @@
+Notities gedurende het omzetten van ArchiMate modellen naar Linked Data structuren:
+
+* Export van ArchiMate model vanuit Archi (Model to Open Exchange File Format)
+    - ArchiMate model wordt hiermee een XML bestand (conformerend aan het AMEFF), met als namespaces:
+        xmlns="http://www.opengroup.org/xsd/archimate/3.0/" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+* De property Object ID heeft een waarde (zonder de tekens 'id') die daadwerkelijk de ID vormt die gebruikt wordt in de URLs. Dus, de data bij de bron heeft die ID's
+* De Object ID property heeft als propertyDefinitionRef 'propid-7'
+* 
