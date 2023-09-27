@@ -6,4 +6,6 @@ Notities gedurende het omzetten van ArchiMate modellen naar Linked Data structur
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 * De property Object ID heeft een waarde (zonder de tekens 'id') die daadwerkelijk de ID vormt die gebruikt wordt in de URLs. Dus, de data bij de bron heeft die ID's
 * De Object ID property heeft als propertyDefinitionRef 'propid-7'
+* De Original ID property heeft als propertyDefinitionRef 'propid-8'
+* De identifier die in het AMEFF XML bestand staat is niet overeenkomstig met Object ID en Original ID
 * 
