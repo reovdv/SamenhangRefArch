@@ -23,5 +23,5 @@ with open('referentiearchitecturen_xml/FORA.xml', encoding='utf-8') as f:
 
 updated_xml = read_XML_and_replace_ID_and_write_to_XML(file)
 
-with open('FORA_veranderd.xml', 'w', encoding='utf-8') as f:
+with open('referentiearchitecturen_xml/veranderde_referentiearchitecturen_xml/FORA_veranderd.xml', 'w', encoding='utf-8') as f:
     f.write(updated_xml)
