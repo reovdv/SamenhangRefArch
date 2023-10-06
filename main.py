@@ -10,7 +10,7 @@ def read_XML_and_replace_ID_and_write_to_XML(filename):
     for element_tag in element_tags:
         identifier = element_tag.get('identifier')
 
-        property_tags_with_propid_8 = element_tag.find('property', {"propertyDefinitionRef" : "propid-8"})
+        property_tags_with_propid_8 = element_tag.find('property', {"propertyDefinitionRef" : "id-614359c532be4788a39d2cb103db1ee9"})
         
         correct_ID = property_tags_with_propid_8.find('value').text
 
