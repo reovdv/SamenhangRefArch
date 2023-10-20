@@ -9,3 +9,5 @@ Notities gedurende het omzetten van ArchiMate modellen naar Linked Data structur
 * De Original ID property heeft als propertyDefinitionRef 'propid-8'
 * De identifier die in het AMEFF XML bestand staat is niet overeenkomstig met Object ID en Original ID
 * 
+
+Sparql construct

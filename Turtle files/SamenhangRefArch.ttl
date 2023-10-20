@@ -78,7 +78,7 @@ FORA:id-3476eb2d-278a-4ecf-8931-f5d510a71b1b
     a archimate:ApplicationComponent;
     skos:prefLabel "Educatieve applicatie"@nl;
     skos:definition "Verzamelbegrip van applicaties, ingezet voor of ontwikkeld met een educatief doel, dat onderwijsdeelnemers ondersteunt bij het uitvoeren van leertaken."@nl;
-    skos:related HORA:id-030bae3e-de6e-400a-b6eb-aff98c42b987.
+    skos:related HORA:Id-16bb2aed-0013-2e43-b8d8-f4aa039faefc.
 
 FORA:id-36325fd9-bf97-483bb-e7bb-0e4f3273732
     a archimate:ApplicationComponent;
@@ -90,7 +90,7 @@ MORA:Id-2d8eb97f-4eb7-0ddc-d9a6-291ad3c6efdf
     skos:prefLabel "Educatieve software"@nl;
     skos:definition "Verzamelbegrip van applicaties, ingezet voor of ontwikkeld met een educatief doel, dat studenten ondersteunt bij het uitvoeren van beroepsspecifieke leertaken."@nl.
 
-HORA:id-030bae3e-de6e-400a-b6eb-aff98c42b987
+HORA:Id-16bb2aed-0013-2e43-b8d8-f4aa039faefc
     a archimate:ApplicationComponent;
     skos:prefLabel "Educatieve applicatie"@nl;
     skos:definition "Een systeem dat specifieke leerinhoud voor de deelnemer zichtbaar maakt."@nl.
