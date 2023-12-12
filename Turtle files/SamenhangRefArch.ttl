@@ -1,7 +1,5 @@
 @prefix archimate: <http://bp4mc2.org/def/archimate#>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-@prefix owl: <http://www.w3.org/2002/07/owl#>.
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix FORA: <http://fora.wikixl.nl/index.php/FORA/>.
 @prefix MORA: <http://mora.mbodigitaal.nl/index.php/>.
 @prefix HORA: <http://hora.surf.nl/index.php/>.
@@ -112,3 +110,5 @@ ROSA:Id-b211c9dc-4100-4fc0-ab11-b4fcff2c7855
     skos:related FORA:id-2e2da735-1b90-47c9-87ce-b38dd7cad38d;
     skos:related HORA:Id-ed4270b9-ee80-2097-b3c0-8f5cef1549e6;
     skos:related HORA:Id-c2970636-876a-bbf6-a1b5-2af2c092acc7.
+
+    
