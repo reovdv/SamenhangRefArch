@@ -8,5 +8,8 @@ Notities gedurende het omzetten van ArchiMate modellen naar Linked Data structur
 * De Object ID property heeft als propertyDefinitionRef 'propid-7'
 * De Original ID property heeft als propertyDefinitionRef 'propid-8'
 * De identifier die in het AMEFF XML bestand staat is niet overeenkomstig met Object ID en Original ID
+* Sommige properties van ArchiMate elementen bevatten niet dezelfde identifier als in de URL
+* Niet alle ArchiMate elementen (enkel de FORA) hebben de property 'Original ID'
+* Element-id op een ArchiMate Semantic MediaWiki-pagina kan niet worden gebruikt als property van dat ArchiMate element
 
 Sparql construct
